@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 30%;
+    width: 75%;
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+}
+.left{
+    height: 100%;
+    width: 25%;
+    background-color: #eff2f2;
+    padding: 30px;
+}
+.left img{
+    height: 300px;
+    width: 300px;
+}
+.right{
+    height: 100%;
+    width: 80%;
+
+    padding: 10px;
+}
+.sponsored{
+    color: grey;
+}
+.product-title{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+
+.rating{
+    display: flex;
+}
+.rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+  .prize{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .flat{
+    color: grey;
+  }
+  .right img{
+
+    height: 50px;
+    width: 80px;
+
+  }
+  .button{
+    background-color: #f8c80a;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .patterns{
+    color: rgb(77, 115, 172);
+    margin-top: 30px;
+  }
+  
+
+  
+  
+  
+
+
+ 
